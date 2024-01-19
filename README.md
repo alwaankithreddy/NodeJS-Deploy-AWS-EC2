@@ -16,10 +16,22 @@
    ```
 
 **Create an EC2 Instance on AWS**
+
 5. Create an IAM user with admin-level access and access type as password and connect through the Amazon console. 
+
 6. Create an EC2 with configuration OS:Ubuntu, type:t2 micro, create a new key pair, and download the .pem
+   
 7. Connecting to the instance using ssh
     ```
     ssh -i instance.pem ubunutu@<IP_ADDRESS>
     ```
-8.  
+8. Update the ubuntu packages
+   ```
+   sudo apt update
+    ```
+9. The latest version of Ubuntu is already getting git and installed, but we need to make sure running the below command and it should give output something like this `git version 2.39.3`
+    ```
+    git -v
+    ```
+10. Install NodeJS and `npm` -  [Guide by DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-22-04)
+11. 
