@@ -29,9 +29,31 @@
    ```
    sudo apt update
     ```
-9. The latest version of Ubuntu is already getting git and installed, but we need to make sure running the below command and it should give output something like this `git version 2.39.3`
+9. The latest version of Ubuntu is already getting git and installed, but we need to make sure running the below command and should give output something like this `git version 2.39.3`
     ```
     git -v
     ```
 10. Install NodeJS and `npm` -  [Guide by DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-22-04)
-11. 
+
+    **Deploying the NodeJS app on EC2**
+
+11.  clone the Repo
+    ```
+    git clone https://github.com/verma-kunal/AWS-Session.git
+    ```
+12. Install npm (it installs all the dependencies)
+    ```
+    npm install
+    ```
+13. Start the project
+    ```
+   npm run start
+   ```
+
+
+**HURRAY, WE DEPLOYED AN NODEJS APPLICATION ON AWS EC2C**
+
+Note: We will need to edit the inbound rule of the security group on the ec2 instance and allow port 3000. 
+    
+    
+    
