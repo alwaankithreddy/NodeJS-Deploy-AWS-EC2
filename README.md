@@ -49,7 +49,8 @@
     ```
     npm run start
     ```
-14. Check if it is working or not by copying the IP address of ec2 instance and typeexactly like this `IP-address:3000`
+    
+14. Check if page is working `<IP-address of EC2instance>:3000`
 
 ** HURRAY, WE DEPLOYED a NODEJS APPLICATION ON AWS EC2C **
 
