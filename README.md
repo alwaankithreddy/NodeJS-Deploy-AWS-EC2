@@ -47,13 +47,13 @@
     ```
 13. Start the project
     ```
-   npm run start
-   ```
+    npm run start
+    ```
+14. Check if it is working or not by copying the IP address of ec2 instance and typeexactly like this `IP-address:3000`
 
+** HURRAY, WE DEPLOYED a NODEJS APPLICATION ON AWS EC2C **
 
-**HURRAY, WE DEPLOYED AN NODEJS APPLICATION ON AWS EC2C**
-
-Note: We will need to edit the inbound rule of the security group on the ec2 instance and allow port 3000. 
-    
+Note: We will need to edit the inbound rule of the security group on the ec2 instance and allow port 3000(because we configured it to port 3000). 
+      
     
     
