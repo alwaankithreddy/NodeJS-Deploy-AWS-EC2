@@ -15,4 +15,11 @@
    npm run start
    ```
 
-
+**Create an EC2 Instance on AWS**
+5. Create an IAM user with admin-level access and access type as password and connect through the Amazon console. 
+6. Create an EC2 with configuration OS:Ubuntu, type:t2 micro, create a new key pair, and download the .pem
+7. Connecting to the instance using ssh
+    ```
+    ssh -i instance.pem ubunutu@<IP_ADDRESS>
+    ```
+8.  
